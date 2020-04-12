@@ -30,7 +30,7 @@ echo %ERRORLEVEL%
 bitsadmin /complete %newDownload%
 
  
-bitsadmin /setnotifycmdline <job> exit
+::bitsadmin /setnotifycmdline <job> exit
 
 ::https://gist.github.com/WiVi71/b0766dd658b50df5b873f676e3d128bd
 ::https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/bitsadmin-setnotifycmdline
