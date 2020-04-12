@@ -27,7 +27,7 @@ timeout "5"
 bitsadmin /geterror %newDownload%
 echo %ERRORLEVEL%
 
-
+bitsadmin /complete %newDownload%
 
  
 bitsadmin /setnotifycmdline <job> exit
